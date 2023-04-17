@@ -43,7 +43,7 @@ const Designs = () => {
     >
       <div className="grid pl-10 grid-cols-3 gap-x-3">
         {designs.map((design) => (
-          <div className="w-4/5 xxl:w-11/12" key={design.placeholder}>
+          <div className="w-11/12 xxl:w-11/12" key={design.placeholder}>
             <div className="inline-flex items-center bg-input pr-4 w-full rounded-md mb-3 py-2">
               <input
                 type="text"
