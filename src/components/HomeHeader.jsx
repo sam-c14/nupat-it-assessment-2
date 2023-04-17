@@ -50,7 +50,7 @@ const HomeHeader = () => {
           <img src={ProfileStack} alt="profile-stack" />
           <p className="opacity-50 text-sm">8 members</p>
         </div>
-        <div className="xl:w-1/2 lg:w-3/5 flex items-center">
+        <div className="xl:w-1/2 xxl:w-1/3 lg:w-3/5 flex items-center">
           <ul className="flex w-full pt-2 justify-between">
             {links.map((link) => (
               <li
