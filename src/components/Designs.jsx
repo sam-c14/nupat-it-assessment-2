@@ -5,7 +5,7 @@ import CardImg3 from "../assets/images/CardImg3.svg";
 import List from "../assets/images/List.svg";
 import Links from "../assets/images/Links.svg";
 import Comment from "../assets/images/Comment.svg";
-import ProfileStack from "../assets/images/ProfileStack.svg";
+import ProfileStack2 from "../assets/images/ProfileStack2.svg";
 import PlusDark from "../assets/images/PlusDark.svg";
 import OptionsIcon from "../assets/images/OptionsIcon.svg";
 
@@ -103,7 +103,7 @@ const Designs = () => {
                           </div>
                         </div>
                         <div>
-                          <img src={ProfileStack} alt="profile-stack" />
+                          <img src={ProfileStack2} alt="profile-stack" />
                         </div>
                       </div>
                     </div>
@@ -143,7 +143,7 @@ const Designs = () => {
                           </div>
                         </div>
                         <div>
-                          <img src={ProfileStack} alt="profile-stack" />
+                          <img src={ProfileStack2} alt="profile-stack" />
                         </div>
                       </div>
                     </div>
@@ -194,7 +194,7 @@ const Designs = () => {
                           </div>
                         </div>
                         <div>
-                          <img src={ProfileStack} alt="profile-stack" />
+                          <img src={ProfileStack2} alt="profile-stack" />
                         </div>
                       </div>
                     </div>
@@ -244,7 +244,7 @@ const Designs = () => {
                           </div>
                         </div>
                         <div>
-                          <img src={ProfileStack} alt="profile-stack" />
+                          <img src={ProfileStack2} alt="profile-stack" />
                         </div>
                       </div>
                     </div>
@@ -306,7 +306,7 @@ const Designs = () => {
                         </div>
                       </div>
                       <div>
-                        <img src={ProfileStack} alt="profile-stack" />
+                        <img src={ProfileStack2} alt="profile-stack" />
                       </div>
                     </div>
                   </div>
