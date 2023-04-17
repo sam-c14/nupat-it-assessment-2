@@ -9,7 +9,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="w-full overflow-auto xxl:h-auto lg:h-screen">
+    <div className="w-full xxl:bg-secondary overflow-auto xxl:h-auto lg:h-screen">
       <Sidebar />
       <HomeHeader />
       <Designs />

@@ -28,14 +28,14 @@ const HomeHeader = () => {
   return (
     <div
       style={{ paddingLeft: "300px" }}
-      className="font-inter mb-4 pt-11 pr-8 shadow-sm"
+      className="font-inter bg-white pb-4 pt-11 pr-8 shadow-alt_2"
     >
       <div className="w-full flex justify-between ">
         <div>
           <h1 className="capitalize leading-10 font-semibold text-4xl">
             new campaign run
           </h1>
-          <p className="opacity-50 mt-2 text-sm">
+          <p className="opacity-50 xxl:mt-0 xl:mt-2 text-sm">
             A new campaign launch work for brand new featur in May month
           </p>
         </div>
@@ -45,7 +45,7 @@ const HomeHeader = () => {
           </button>
         </div>
       </div>
-      <div className="nav mt-8 flex justify-between items-center">
+      <div className="nav mt-10 flex justify-between items-center">
         <div className="flex gap-2 w-1/5 items-center">
           <img src={ProfileStack} alt="profile-stack" />
           <p className="opacity-50 text-sm">8 members</p>

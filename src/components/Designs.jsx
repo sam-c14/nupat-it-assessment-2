@@ -1,5 +1,5 @@
 import React from "react";
-import CardImg1 from "../assets/images/CardImg1.svg";
+import CardImgPng1 from "../assets/images/CardImgPng1.png";
 import CardImg2 from "../assets/images/CardImg2.svg";
 import CardImg3 from "../assets/images/CardImg3.svg";
 import List from "../assets/images/List.svg";
@@ -12,7 +12,7 @@ import OptionsIcon from "../assets/images/OptionsIcon.svg";
 const Designs = () => {
   const designs = [
     {
-      src: CardImg1,
+      src: CardImgPng1,
       progressVal: 0,
       isTestingPresent: true,
       isTestingAbove: false,
@@ -39,17 +39,17 @@ const Designs = () => {
   return (
     <div
       style={{ paddingLeft: "300px" }}
-      className="font-inter bg-secondary mt-10 py-10 pr-8 shadow-sm overflow-hidden"
+      className="font-inter bg-secondary mt-0 py-10 pr-8 shadow-sm overflow-hidden"
     >
       <div className="grid pl-10 grid-cols-3 gap-x-3">
         {designs.map((design) => (
-          <div className="w-4/5" key={design}>
-            <div className="inline-flex items-center bg-input pr-4 w-full rounded-md py-2">
+          <div className="w-4/5 xxl:w-11/12" key={design.placeholder}>
+            <div className="inline-flex items-center bg-input pr-4 w-full rounded-md mb-3 py-2">
               <input
                 type="text"
-                disabled="true"
+                disabled={true}
                 placeholder={design.placeholder}
-                className="bg-transparent outline-none rounded-sm pl-2 w-full py-1"
+                className="bg-transparent outline-none rounded-sm pl-5 w-full py-1"
               />
               <div className="text-white rounded-md  bg-black px-4 py-2 h-5/6">
                 {design.count}
