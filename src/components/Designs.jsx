@@ -93,11 +93,11 @@ const Designs = () => {
                       </div>
                       <div className="mt-4 flex justify-between">
                         <div className="flex gap-5">
-                          <div className="flex gap-2 opacity-50 items-center">
+                          <div className="flex gap-2 cursor-pointer opacity-50 items-center">
                             <img src={Comment} alt="comment" />
                             <p>7</p>
                           </div>
-                          <div className="flex gap-2 opacity-50 items-center">
+                          <div className="flex gap-2 cursor-pointer opacity-50 items-center">
                             <img src={Links} alt="links" />
                             <p>2</p>
                           </div>
@@ -108,7 +108,7 @@ const Designs = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="bg-white pb-3 rounded-xl shadow-alt p-1 mt-4 px-1 border">
+                  <div className="bg-white pb-3 rounded-xl shadow-alt p-1 mt-2 px-1 border">
                     <div className="mt-2 px-3">
                       <h3 className="text-black font-semibold">
                         Usability Testing
@@ -133,11 +133,11 @@ const Designs = () => {
                       </div>
                       <div className="mt-4 flex justify-between">
                         <div className="flex gap-5">
-                          <div className="flex gap-2 opacity-50 items-center">
+                          <div className="flex gap-2 cursor-pointer opacity-50 items-center">
                             <img src={Comment} alt="comment" />
                             <p>7</p>
                           </div>
-                          <div className="flex gap-2 opacity-50 items-center">
+                          <div className="flex gap-2 cursor-pointer opacity-50 items-center">
                             <img src={Links} alt="links" />
                             <p>2</p>
                           </div>
@@ -184,11 +184,11 @@ const Designs = () => {
                       </div>
                       <div className="mt-4 flex justify-between">
                         <div className="flex gap-5">
-                          <div className="flex gap-2 opacity-50 items-center">
+                          <div className="flex gap-2 cursor-pointer opacity-50 items-center">
                             <img src={Comment} alt="comment" />
                             <p>7</p>
                           </div>
-                          <div className="flex gap-2 opacity-50 items-center">
+                          <div className="flex gap-2 cursor-pointer opacity-50 items-center">
                             <img src={Links} alt="links" />
                             <p>2</p>
                           </div>
@@ -234,11 +234,11 @@ const Designs = () => {
                       </div>
                       <div className="mt-4 flex justify-between">
                         <div className="flex gap-5">
-                          <div className="flex gap-2 opacity-50 items-center">
+                          <div className="flex gap-2 cursor-pointer opacity-50 items-center">
                             <img src={Comment} alt="comment" />
                             <p>7</p>
                           </div>
-                          <div className="flex gap-2 opacity-50 items-center">
+                          <div className="flex gap-2 cursor-pointer opacity-50 items-center">
                             <img src={Links} alt="links" />
                             <p>2</p>
                           </div>
@@ -296,11 +296,11 @@ const Designs = () => {
                     </div>
                     <div className="mt-4 flex justify-between px-3">
                       <div className="flex gap-5">
-                        <div className="flex gap-2 opacity- items-center50">
+                        <div className="flex gap-2 cursor-pointer opacity-50 items-center">
                           <img src={Comment} alt="comment" />
                           <p>7</p>
                         </div>
-                        <div className="flex gap-2 opacity- items-center50">
+                        <div className="flex gap-2 cursor-pointer opacity-50 items-center">
                           <img src={Links} alt="links" />
                           <p>2</p>
                         </div>
