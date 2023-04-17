@@ -41,7 +41,7 @@ const Designs = () => {
       style={{ paddingLeft: "300px" }}
       className="font-inter bg-secondary mt-0 py-10 pr-8 shadow-sm overflow-hidden"
     >
-      <div className="grid pl-10 grid-cols-3 gap-x-3">
+      <div className="grid lg:pl-8 xl:pl-10 grid-cols-3 gap-x-3">
         {designs.map((design) => (
           <div className="w-11/12 xxl:w-11/12" key={design.placeholder}>
             <div className="inline-flex items-center bg-input pr-4 w-full rounded-md mb-3 py-2">
