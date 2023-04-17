@@ -1,10 +1,10 @@
 import React from "react";
-import Sidebar from "./components/Sidebar";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <div>
-      <Sidebar />
+    <div className="">
+      <Home />
     </div>
   );
 };

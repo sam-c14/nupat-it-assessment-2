@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+progress {
+  border-radius: 10px;
+  height: 10px;
+}
+progress::-webkit-progress-bar {
+  background: #ebebeb;
+  /* background-color: yellow; */
+  border-radius: 7px;
+}
+progress::-webkit-progress-value {
+  background: red;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  /* box-shadow: 1px 1px 5px 3px rgba(255, 0, 0, 0.8); */
+}
+.disable-scroll {
+  overflow: hidden;
+}
+#making-progress::-webkit-progress-value {
+  background: #8bc488;
+  border-radius: 7px;
+}
