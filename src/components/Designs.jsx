@@ -68,7 +68,7 @@ const Designs = () => {
                           <h3 className="text-black font-semibold">
                             Highfidelity Design
                           </h3>
-                          <p className="opacity-50 mt-1 text-sm ">
+                          <p className="opacity-50 mt-1 text-sm xxl:text-base">
                             Make clear design and color
                           </p>
                         </div>
@@ -113,7 +113,7 @@ const Designs = () => {
                       <h3 className="text-black font-semibold">
                         Usability Testing
                       </h3>
-                      <p className="opacity-50  text-sm mt-1">
+                      <p className="opacity-50 xxl:text-base text-sm mt-1">
                         Make clear design and color
                       </p>
                       <div className="flex justify-between mt-2">
@@ -164,7 +164,7 @@ const Designs = () => {
                       <h3 className="text-black font-semibold">
                         Usability Testing
                       </h3>
-                      <p className="opacity-50  text-sm mt-1">
+                      <p className="opacity-50 xxl:text-base text-sm mt-1">
                         Make clear design and color
                       </p>
                       <div className="flex justify-between mt-2">
@@ -209,7 +209,7 @@ const Designs = () => {
                           <h3 className="text-black font-semibold">
                             Highfidelity Design
                           </h3>
-                          <p className="opacity-50 mt-1 text-sm ">
+                          <p className="opacity-50 mt-1 text-sm xxl:text-base">
                             Make clear design and color
                           </p>
                         </div>
@@ -271,7 +271,7 @@ const Designs = () => {
                         <h3 className="text-black font-semibold">
                           Highfidelity Design
                         </h3>
-                        <p className="opacity-50 mt-1 text-sm">
+                        <p className="opacity-50 mt-1 text-sm xxl:text-base">
                           Make clear design and color
                         </p>
                       </div>
