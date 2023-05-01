@@ -29,3 +29,14 @@ progress::-webkit-progress-value {
     overflow: hidden;
   }
 }
+.transition-smooth {
+  transition: all 0.5s;
+}
+@media (max-width: 1250px) {
+  .hide-top {
+    top: -150% !important;
+  }
+  .show-top {
+    top: 0% !important;
+  }
+}

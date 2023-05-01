@@ -30,32 +30,32 @@ const HomeHeader = () => {
       className="font-inter bg-white pb-4 pt-11 lg:pl-0 pl-8 pr-8 shadow-alt_2"
       id="home-component"
     >
-      <div className="w-full lg:px-8 xl:px-10 flex md:justify-between md:gap-0 gap-y-3 flex-wrap">
-        <div className="md:w-auto w-full">
-          <h1 className="capitalize leading-10 font-semibold text-4xl">
+      <div className="w-full lg:px-8 xl:px-10 flex sm:justify-between md:gap-0 gap-y-3 flex-wrap">
+        <div className="sm:w-auto w-full">
+          <h1 className="capitalize leading-10 font-semibold text-3xl md:text-4xl">
             new campaign run
           </h1>
           <p className="opacity-50 xxl:mt-0 mt-3.5 xl:mt-2 md:text-sm text-xs xxl:text-base">
             A new campaign launch work for brand new featur in May month
           </p>
         </div>
-        <div className="sm:w-auto w-full">
-          <button className="flex gap-3 mb-2 items-center px-8 py-2.5 rounded-lg text-sm uppercase text-white bg-black">
+        <div className="sm:w-auto lg:justify-normal lg:block sm:flex sm:items-end pt-2 pb-0 w-full">
+          <button className="flex gap-3 mb-2 items-center px-8 py-2.5 lg:h-auto sm:h-2/3 rounded-lg text-sm uppercase text-white bg-black">
             add members
           </button>
         </div>
       </div>
-      <div className="nav lg:px-8  xl:px-10 mt-10 flex md:justify-between flex-wrap items-center">
+      <div className="nav lg:px-8 xl:px-10 mt-5 md:mb-0 mb-2 md:mt-10 flex md:justify-between flex-wrap items-center">
         <div className="flex gap-2 w-full md:w-1/5 items-center">
           <img src={ProfileStack} alt="profile-stack" />
-          <p className="opacity-50 text-sm">8 members</p>
+          <p className="opacity-50 whitespace-nowrap text-sm">8 members</p>
         </div>
-        <div className="xl:w-1/2 xxl:w-1/3 md:w-auto w-full lg:w-3/5 flex items-center">
-          <ul className="md:flex grid grid-cols-2 w-full pt-2 justify-between">
+        <div className="xl:w-1/2 xxl:w-1/3 md:w-auto w-full lg:w-3/5 mt-1 flex items-center">
+          <ul className="md:flex grid sm:grid-cols-3 grid-cols-2 gap-y-2 md:gap-x-2 w-full pt-2 justify-between">
             {links.map((link) => (
               <li
                 key={link.text}
-                className="flex md:text-sm text-xs cursor-pointer gap-3 mb-1"
+                className="flex md:text-sm text-xs cursor-pointer gap-2.5 lg:gap-3 mb-1"
               >
                 <img src={link.icon} alt="icon" />
                 {link.text}
