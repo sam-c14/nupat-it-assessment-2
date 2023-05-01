@@ -45,7 +45,7 @@ const Sidebar = () => {
     },
   ];
   return (
-    <div className="h-screen w-68 py-8 flex-wrap flex justify-center absolute font-inter text-white bg-primary">
+    <div className="h-screen hidden lg:flex w-68 py-8 flex-wrap justify-center absolute font-inter text-white bg-primary">
       <div className="mb-4">
         <button className="flex gap-3 mb-5 items-center px-8 py-2.5 rounded-md bg-btn_primary">
           <img src={Bolt} /> Welcome Keerth!
