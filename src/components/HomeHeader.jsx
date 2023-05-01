@@ -35,7 +35,7 @@ const HomeHeader = () => {
           <h1 className="capitalize leading-10 font-semibold text-4xl">
             new campaign run
           </h1>
-          <p className="opacity-50 xxl:mt-0 xl:mt-2 md:text-sm text-xs xxl:text-base">
+          <p className="opacity-50 xxl:mt-0 mt-3.5 xl:mt-2 md:text-sm text-xs xxl:text-base">
             A new campaign launch work for brand new featur in May month
           </p>
         </div>

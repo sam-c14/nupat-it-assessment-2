@@ -6,6 +6,7 @@ import Users2 from "../assets/images/Users2.svg";
 import AddUser from "../assets/images/AddUser.svg";
 import Settings from "../assets/images/Settings.svg";
 import Plus from "../assets/images/Plus.svg";
+import Burger from "../assets/images/Burger.svg";
 
 const Sidebar = () => {
   const links = [
@@ -45,41 +46,46 @@ const Sidebar = () => {
     },
   ];
   return (
-    <div className="h-screen hidden lg:flex w-68 py-8 flex-wrap justify-center absolute font-inter text-white bg-primary">
-      <div className="mb-4">
-        <button className="flex gap-3 mb-5 items-center px-8 py-2.5 rounded-md bg-btn_primary">
-          <img src={Bolt} /> Welcome Keerth!
-        </button>
-        <div className="list mt-7">
-          <ul>
-            {links.map((link) => (
-              <li
-                key={link.text}
-                className="flex text-sm gap-3 cursor-pointer mb-7"
-              >
-                <img src={link.icon} alt="icon" />
-                {link.text}
-              </li>
-            ))}
-          </ul>
-          <hr className="h-0 min-w-0" />
-          <ul className="mt-8">
-            {endLinks.map((link) => (
-              <li
-                key={link.text}
-                className="flex text-sm gap-3 cursor-pointer mb-7 opacity-60"
-              >
-                <img src={link.icon} alt="icon" />
-                {link.text}
-              </li>
-            ))}
-          </ul>
+    <div>
+      <div className="h-screen hidden lg:flex w-68 py-8 flex-wrap justify-center absolute font-inter text-white bg-primary">
+        <div className="mb-4">
+          <button className="flex gap-3 mb-5 items-center px-8 py-2.5 rounded-md bg-btn_primary">
+            <img src={Bolt} /> Welcome Keerth!
+          </button>
+          <div className="list mt-7">
+            <ul>
+              {links.map((link) => (
+                <li
+                  key={link.text}
+                  className="flex text-sm gap-3 cursor-pointer mb-7"
+                >
+                  <img src={link.icon} alt="icon" />
+                  {link.text}
+                </li>
+              ))}
+            </ul>
+            <hr className="h-0 min-w-0" />
+            <ul className="mt-8">
+              {endLinks.map((link) => (
+                <li
+                  key={link.text}
+                  className="flex text-sm gap-3 cursor-pointer mb-7 opacity-60"
+                >
+                  <img src={link.icon} alt="icon" />
+                  {link.text}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div className="flex items-end">
+          <button className="flex gap-3 mb-5 items-center px-8 py-3 font-normal uppercase rounded-md bg-btn_secondary">
+            <img src={Plus} /> new project
+          </button>
         </div>
       </div>
-      <div className="flex items-end">
-        <button className="flex gap-3 mb-5 items-center px-8 py-3 font-normal uppercase rounded-md bg-btn_secondary">
-          <img src={Plus} /> new project
-        </button>
+      <div className="lg:hidden w-5 absolute top-10">
+        <img src={Burger} alt="hamburger" />
       </div>
     </div>
   );
